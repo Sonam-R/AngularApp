@@ -13,16 +13,12 @@ gulp.task('jshint', function() {
         .pipe(jshint.reporter('default'));
 });
 
-
-
 gulp.task('sass', function () {
     return gulp.src('./app/scss/*.scss')
         .pipe(sass())
         .pipe(gulp.dest('css'))
         .pipe(bs.reload({stream: true}));
 });
-
-
 
 gulp.task('browser-sync', ['sass'], function() {
     bs.init({
@@ -36,9 +32,5 @@ gulp.task('watch', ['browser-sync'], function () {
     gulp.watch("./app/scss/*.scss", ['sass']);
     gulp.watch("./app/*.html").on('change', bs.reload);
 });
-
-
-
-
 
 gulp.task('default',['jshint','sass','browser-sync','watch']);
