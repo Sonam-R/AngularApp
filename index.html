@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 1</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body ng-app="membersApp">
+
+<div class="container">
+    <div class="main-bg">
+        <ul class="left-block">
+            <li><a ui-sref="Members">All Memeber</a></li>
+            <li><a ui-sref="membersList">Add Member</a></li>
+        </ul>
+        <div class="right-block">
+            <ui-view></ui-view>
+        </div>
+    </div>
+</div>
+<script src="/bower_components/angular/angular.js"></script>
+<script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="/app/js/app.js"></script>
+
+</body>
+</html>
