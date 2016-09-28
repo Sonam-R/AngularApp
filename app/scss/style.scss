@@ -74,3 +74,12 @@ tr {
     }
   }
 }
+.row-link {
+  text-decoration: none;
+  color: #666;
+  font-weight: 600;
+  margin: 0 5px;
+  &:hover {
+    color: blue;
+  }
+}

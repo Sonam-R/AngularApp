@@ -1,54 +1,24 @@
 <table class="allMembers">
     <tbody>
         <tr>
+            <!--<th  ng-repeat="employee in employeeRecords">employee</th>-->
             <th>Name</th>
             <th>Designation</th>
-            <th>Employee Id</th>
+            <th>Employee ID</th>
             <th>Technology</th>
+            <th>Action</th>
         </tr>
     </tbody>
     <tbody>
-        <tr>
-            <td>Mignon Batterton</td>
-            <td>SSE</td>
-            <td>IG-0422</td>
-            <td>FEEN</td>
-        </tr>
-        <tr>
-            <td>Dori Goldberger</td>
-            <td>SE</td>
-            <td>IG-0428</td>
-            <td>FEEN</td>
-        </tr>
-        <tr>
-            <td>Dori Goldberger</td>
-            <td>SSE</td>
-            <td>IG-0412</td>
-            <td>FEEN</td>
-        </tr>
-        <tr>
-            <td>Wenona Artis</td>
-            <td>Trainee</td>
-            <td>IG-0722</td>
-            <td>FEEN</td>
-        </tr>
-        <tr>
-            <td>Dannielle Marling</td>
-            <td>SSE</td>
-            <td>IG-0222</td>
-            <td>FEEN</td>
-        </tr>
-        <tr>
-            <td>Walker Godbey</td>
-            <td>SSE</td>
-            <td>IG-0111</td>
-            <td>FEEN</td>
-        </tr>
-        <tr>
-            <td>Keila Lipson</td>
-            <td>SSE</td>
-            <td>IG-0401</td>
-            <td>FEEN</td>
+        <tr ng-repeat="employee in employeeRecords">
+            <td> {{ employee.Name  }} </td>
+            <td> {{ employee.designation  }} </td>
+            <td> {{ employee.EmployeeId  }} </td>
+            <td> {{ employee.technology  }} </td>
+            <td>
+                <a class="row-link" href="viewPage">View</a>
+                <a class="row-link" href="javascript:void(0)">Edit</a>
+            </td>
         </tr>
     </tbody>
 </table>

@@ -8,12 +8,14 @@ membersApp.config(function($stateProvider, $urlRouterProvider) {
 
         .state('Members', {
             url: '/',
-            templateUrl: '/app/components/allMembers/allMembers.html'
+            templateUrl: '/app/components/allMembers/allMembers.html',
+            controller: 'allMemebers'
         })
 
         .state('membersList', {
             url: '/membersList',
-            templateUrl: '/app/components/memberList/memberList.html'
+            templateUrl: '/app/components/memberList/memberList.html',
+            controller: 'memberList'
 
         });
 

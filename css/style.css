@@ -65,3 +65,11 @@ table {
 tr td:first-child,
 tr th:first-child {
   border-left: #ccc solid 1px; }
+
+.row-link {
+  text-decoration: none;
+  color: #666;
+  font-weight: 600;
+  margin: 0 5px; }
+  .row-link:hover {
+    color: blue; }

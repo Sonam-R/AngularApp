@@ -1,0 +1,44 @@
+[
+    {
+      "Name": "Aman",
+      "EmployeeId": "IG-0412",
+      "designation": "SSE",
+      "technology": "FEEN"
+    },
+    {
+      "Name": "Reeta",
+      "EmployeeId": "IG-0410",
+      "designation": "Trainee",
+      "technology": "FEEN"
+    },
+    {
+      "Name": "John",
+      "EmployeeId": "IG-0101",
+      "designation": "SE",
+      "technology": "FEEN"
+    },
+    {
+      "Name": "Sam",
+      "EmployeeId": "IG-001",
+      "designation": "SSE",
+      "technology": "FEEN"
+    },
+    {
+      "Name": "James",
+      "EmployeeId": "IG-0304",
+      "designation": "SSE",
+      "technology": "FEEN"
+    },
+    {
+      "Name": "Mack",
+      "EmployeeId": "IG-0345",
+      "designation": "SSE",
+      "technology": "FEEN"
+    },
+    {
+      "Name": "Anuel",
+      "EmployeeId": "IG-0989",
+      "designation": "Trainee",
+      "technology": "FEEN"
+    }
+]
