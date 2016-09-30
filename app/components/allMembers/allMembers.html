@@ -1,7 +1,6 @@
 <table class="allMembers">
     <tbody>
         <tr>
-            <!--<th  ng-repeat="employee in employeeRecords">employee</th>-->
             <th>Name</th>
             <th>Designation</th>
             <th>Employee ID</th>
@@ -10,14 +9,15 @@
         </tr>
     </tbody>
     <tbody>
-        <tr ng-repeat="employee in employeeRecords">
-            <td> {{ employee.Name  }} </td>
+        <tr ng-repeat="employee in employeeRecord">
+            <td> {{ employee.Name + ' ' +  employee.lastname  }} </td>
             <td> {{ employee.designation  }} </td>
             <td> {{ employee.EmployeeId  }} </td>
             <td> {{ employee.technology  }} </td>
             <td>
-                <a class="row-link" href="viewPage">View</a>
-                <a class="row-link" href="javascript:void(0)">Edit</a>
+                <a class="row-link" ng-click="viewEmployeeInfo($index)" ui-sref="detail">View</a>
+                <a class="row-link" ng-click="editEmployeeInfo($index)" ui-sref="edit">Edit</a>
+                <a class="row-link" ng-click="deleteEmployeeInfo($index)">Delete</a>
             </td>
         </tr>
     </tbody>

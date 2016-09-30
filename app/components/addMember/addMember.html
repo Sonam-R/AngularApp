@@ -1,0 +1,28 @@
+<ul class="add-member">
+    <form name="userForm" ng-submit="submitForm()">
+        <li>
+            <input type="text" class="form-row" placeholder="First Name" ng-model="user.Name" />
+        </li>
+        <li>
+            <input type="text" class="form-row" placeholder="Last Name" ng-model="user.lastName" />
+        </li>
+        <li>
+            <input type="text" class="form-row" placeholder="Gender" ng-model="user.gender"/>
+        </li>
+        <li>
+            <input type="text" class="form-row" placeholder="Employee ID" ng-model="user.EmployeeId" />
+        </li>
+        <li>
+            <input type="text" class="form-row" placeholder="Designation" ng-model="user.designation"/>
+        </li>
+        <li>
+            <input type="text"  class="form-row" placeholder="Experience" ng-model="user.experience"/>
+        </li>
+        <li>
+            <input type="text" class="form-row" placeholder="Technology" ng-model="user.technology" />
+        </li>
+        <li>
+            <input type="submit" value="Save" class="save-btn"/>
+        </li>
+    </form>
+</ul>

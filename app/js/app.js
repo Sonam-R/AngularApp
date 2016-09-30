@@ -12,11 +12,24 @@ membersApp.config(function($stateProvider, $urlRouterProvider) {
             controller: 'allMemebers'
         })
 
-        .state('membersList', {
-            url: '/membersList',
-            templateUrl: '/app/components/memberList/memberList.html',
-            controller: 'memberList'
+        .state('addMember', {
+            url: '/addMember',
+            templateUrl: '/app/components/addMember/addMember.html',
+            controller: 'addMember'
+        })
 
+        .state('detail', {
+            url: '/detail',
+            templateUrl: 'app/components/employeeDetail/employeeDetail.html',
+            controller: 'empDetail',
+            params : {index : null}
+        })
+
+        .state('edit', {
+            url: '/',
+            templateUrl: 'app/components/editDetail/editDetail.html',
+            controller: 'editDetail',
+            params : {index : 2}
         });
 
 });

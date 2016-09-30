@@ -83,3 +83,32 @@ tr {
     color: blue;
   }
 }
+.add-member {
+  list-style: outside none none;
+  padding: 20px 10px;
+  li {
+    padding: 0 0 20px;
+  }
+  .form-row {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #666;
+    max-width: 50%;
+    padding: 10px;
+    width: 100%;
+  }
+  .save-btn {
+    background: #666 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 40px;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

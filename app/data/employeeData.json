@@ -1,44 +1,65 @@
 [
     {
       "Name": "Aman",
+      "lastname": "lorem",
+      "Gender": "Male",
       "EmployeeId": "IG-0412",
       "designation": "SSE",
+      "Experience": "5yrs",
       "technology": "FEEN"
     },
     {
       "Name": "Reeta",
+      "lastname": "Ipsum",
+      "Gender": "Female",
       "EmployeeId": "IG-0410",
       "designation": "Trainee",
+      "Experience": "0.8yrs",
       "technology": "FEEN"
     },
     {
       "Name": "John",
+      "lastname": "lorem",
+      "Gender": "Male",
       "EmployeeId": "IG-0101",
       "designation": "SE",
+      "Experience": "4yrs",
       "technology": "FEEN"
     },
     {
       "Name": "Sam",
+      "lastname": "Ipsum",
+      "Gender": "Male",
       "EmployeeId": "IG-001",
       "designation": "SSE",
+      "Experience": "9yrs",
       "technology": "FEEN"
     },
     {
       "Name": "James",
+      "lastname": "lorem",
+      "Gender": "Male",
       "EmployeeId": "IG-0304",
       "designation": "SSE",
+      "Experience": "10yrs",
       "technology": "FEEN"
     },
     {
       "Name": "Mack",
+      "lastname": "lorem",
+      "Gender": "Male",
       "EmployeeId": "IG-0345",
       "designation": "SSE",
+      "Experience": "12yrs",
       "technology": "FEEN"
     },
     {
       "Name": "Anuel",
+      "lastname": "lorem",
+      "Gender": "Male",
       "EmployeeId": "IG-0989",
       "designation": "Trainee",
+      "Experience": "0.5yrs",
       "technology": "FEEN"
     }
 ]

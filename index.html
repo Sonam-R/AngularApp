@@ -9,8 +9,8 @@
 <div class="container">
     <div class="main-bg">
         <ul class="left-block">
-            <li><a ui-sref="Members">All Memeber</a></li>
-            <li><a ui-sref="membersList">Add Member</a></li>
+            <li><a ui-sref="Members">All Member</a></li>
+            <li><a ui-sref="addMember">Add Member</a></li>
         </ul>
         <div class="right-block">
             <ui-view></ui-view>
@@ -21,7 +21,10 @@
 <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script src="/app/js/app.js"></script>
 <script src="/app/components/allMembers/allMembers.controller.js"></script>
-<script src="/app/components/memberList/memberList.controller.js"></script>
+<script src="/app/components/addMember/addMember.controller.js"></script>
+<script src="/app/components/employeeDetail/employeeDetail.controller.js"></script>
+<script src="/app/components/editDetail/editDetail.controller.js"></script>
+<script src="/app/service/employeeDataService.js"></script>
 
 </body>
 </html>

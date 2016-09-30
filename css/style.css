@@ -73,3 +73,28 @@ tr th:first-child {
   margin: 0 5px; }
   .row-link:hover {
     color: blue; }
+
+.add-member {
+  list-style: outside none none;
+  padding: 20px 10px; }
+  .add-member li {
+    padding: 0 0 20px; }
+  .add-member .form-row {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #666;
+    max-width: 50%;
+    padding: 10px;
+    width: 100%; }
+  .add-member .save-btn {
+    background: #666 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 40px; }
+    .add-member .save-btn:hover {
+      opacity: 0.8; }
